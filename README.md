@@ -10,5 +10,5 @@ D= Delete
 #Requirements
 
 npm install vite@latest
-/n
+
 npm install uuidv4

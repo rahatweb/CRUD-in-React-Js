@@ -1,0 +1,123 @@
+.mainSection{
+    height: 100vh;
+    width: 100vw;
+}
+.formControl{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(197, 197, 197);
+}
+
+.inputFeilds,
+.btns{
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+}
+.inputFeilds input,
+.btns button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.btn1{
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn2{
+    background: rgb(196, 167, 2);
+    color: white;
+    cursor: pointer;
+}
+.btn3{
+    background: #FF0000;
+    color: white;
+    cursor: pointer;
+}
+
+/* Table */
+
+.dataTable{
+    width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.dataTable h1{
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(228, 228, 231);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    padding: 15px 100px;
+}
+
+.mainTable{
+    table-layout: fixed;
+    margin-top: 20px;
+    width: 70%;
+    border-collapse: collapse;
+
+}
+
+th{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-right: 1px solid white;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    
+}
+th:last-child{
+    border-right: none;
+}
+table,tr,th,td{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+td{
+    padding: 10px;
+    border-right: 1px solid black;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+td:last-child{
+    border-right: none;
+    
+}
+tr:nth-child(even){
+    background-color: rgb(214, 211, 211);
+
+}
+tr:last-child{
+    border-bottom: 1px solid black;
+    /* border-radius: 100px; */
+}
+
+.btn{
+    padding: 10px;
+    width: 40%;
+    border-radius: 8px;
+    border: none;
+    margin-inline: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
